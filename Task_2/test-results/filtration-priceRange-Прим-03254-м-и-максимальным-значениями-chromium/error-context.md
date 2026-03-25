@@ -1,0 +1,189 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]: 📋
+        - heading "Модерация Авито" [level=1] [ref=e7]
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "📝 Объявления" [ref=e10] [cursor=pointer]:
+            - /url: /list
+            - generic [ref=e11]: 📝
+            - generic [ref=e12]: Объявления
+        - listitem [ref=e13]:
+          - link "📊 Статистика" [ref=e14] [cursor=pointer]:
+            - /url: /stats
+            - generic [ref=e15]: 📊
+            - generic [ref=e16]: Статистика
+      - button "Switch to dark theme" [ref=e17] [cursor=pointer]:
+        - generic [ref=e18]: 🌙
+        - generic [ref=e19]: Темная
+  - generic [ref=e20]:
+    - banner [ref=e21]:
+      - heading "Модерация объявлений" [level=1] [ref=e22]
+      - paragraph [ref=e23]: Управление и модерация объявлений на платформе
+    - generic [ref=e24]:
+      - generic [ref=e26]:
+        - generic [ref=e27]: Поиск по названию
+        - textbox "Введите название... (нажмите / для быстрого поиска)" [ref=e28]
+      - generic [ref=e29]:
+        - generic [ref=e30] [cursor=pointer]:
+          - checkbox "🔥 Только срочные"
+          - generic [ref=e32]: 🔥 Только срочные
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - generic [ref=e35]: Сортировать по
+            - combobox [ref=e36] [cursor=pointer]:
+              - option "Дате создания" [selected]
+              - option "Цене"
+              - option "Приоритету"
+          - generic [ref=e37]:
+            - generic [ref=e38]: Порядок
+            - combobox [ref=e39] [cursor=pointer]:
+              - option "По убыванию" [selected]
+              - option "По возрастанию"
+    - generic [ref=e40]:
+      - complementary [ref=e41]:
+        - generic [ref=e42]:
+          - heading "Фильтры" [level=2] [ref=e43]
+          - button "✕ Сбросить" [ref=e44] [cursor=pointer]
+        - generic [ref=e45]:
+          - generic [ref=e46]:
+            - generic [ref=e47]: Статус
+            - generic [ref=e48]:
+              - generic [ref=e49] [cursor=pointer]:
+                - checkbox "На модерации" [ref=e50]
+                - generic [ref=e51]: На модерации
+              - generic [ref=e52] [cursor=pointer]:
+                - checkbox "Одобрено" [ref=e53]
+                - generic [ref=e54]: Одобрено
+              - generic [ref=e55] [cursor=pointer]:
+                - checkbox "Отклонено" [ref=e56]
+                - generic [ref=e57]: Отклонено
+              - generic [ref=e58] [cursor=pointer]:
+                - checkbox "Черновик" [ref=e59]
+                - generic [ref=e60]: Черновик
+          - generic [ref=e61]:
+            - generic [ref=e62]: Категория
+            - combobox [ref=e63] [cursor=pointer]:
+              - option "Все категории" [selected]
+              - option "Электроника"
+              - option "Недвижимость"
+              - option "Транспорт"
+              - option "Работа"
+              - option "Услуги"
+              - option "Животные"
+              - option "Мода"
+              - option "Детское"
+          - generic [ref=e64]:
+            - generic [ref=e65]: Приоритет
+            - combobox [ref=e66] [cursor=pointer]:
+              - option "Все" [selected]
+              - option "Обычный"
+              - option "Срочный"
+          - generic [ref=e67]:
+            - generic [ref=e68]: Диапазон цен (₽)
+            - generic [ref=e69]:
+              - spinbutton [ref=e70]: "1000"
+              - generic [ref=e71]: —
+              - spinbutton [active] [ref=e72]: "5000"
+      - main [ref=e73]:
+        - generic [ref=e74]:
+          - generic [ref=e75] [cursor=pointer]:
+            - 'checkbox "Выбрать объявление Объявление 33: Мода для продажи" [ref=e77]'
+            - 'img "Объявление 33: Мода для продажи" [ref=e79]'
+            - generic [ref=e80]:
+              - generic [ref=e81]:
+                - 'heading "Объявление 33: Мода для продажи" [level=3] [ref=e82]'
+                - generic [ref=e84]: Отклонено
+              - paragraph [ref=e85]: Подробное описание товара 33. Это отличный товар, который подходит для различных целей. Качество проверено временем и им...
+              - generic [ref=e86]:
+                - generic [ref=e87]: 9 905 ₽
+                - generic [ref=e88]: Мода
+              - generic [ref=e89]:
+                - generic [ref=e90]: 20.03.2026
+                - generic [ref=e91]:
+                  - generic [ref=e92]: Продавец 51
+                  - generic [ref=e93]: ⭐ 4.9
+          - generic [ref=e94] [cursor=pointer]:
+            - 'checkbox "Выбрать объявление Объявление 31: Недвижимость для продажи" [ref=e96]'
+            - 'img "Объявление 31: Недвижимость для продажи" [ref=e98]'
+            - generic [ref=e99]:
+              - generic [ref=e100]:
+                - 'heading "Объявление 31: Недвижимость для продажи" [level=3] [ref=e101]'
+                - generic [ref=e102]:
+                  - generic [ref=e103]: На модерации
+                  - generic [ref=e104]: ⚡ Срочно
+              - paragraph [ref=e105]: Подробное описание товара 31. Это отличный товар, который подходит для различных целей. Качество проверено временем и им...
+              - generic [ref=e106]:
+                - generic [ref=e107]: 9 198 ₽
+                - generic [ref=e108]: Недвижимость
+              - generic [ref=e109]:
+                - generic [ref=e110]: 28.02.2026
+                - generic [ref=e111]:
+                  - generic [ref=e112]: Продавец 42
+                  - generic [ref=e113]: ⭐ 1.0
+          - generic [ref=e114] [cursor=pointer]:
+            - 'checkbox "Выбрать объявление Объявление 63: Детское для продажи" [ref=e116]'
+            - 'img "Объявление 63: Детское для продажи" [ref=e118]'
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - 'heading "Объявление 63: Детское для продажи" [level=3] [ref=e121]'
+                - generic [ref=e122]:
+                  - generic [ref=e123]: Одобрено
+                  - generic [ref=e124]: ⚡ Срочно
+              - paragraph [ref=e125]: Подробное описание товара 63. Это отличный товар, который подходит для различных целей. Качество проверено временем и им...
+              - generic [ref=e126]:
+                - generic [ref=e127]: 8 293 ₽
+                - generic [ref=e128]: Детское
+              - generic [ref=e129]:
+                - generic [ref=e130]: 26.02.2026
+                - generic [ref=e131]:
+                  - generic [ref=e132]: Продавец 5
+                  - generic [ref=e133]: ⭐ 1.2
+          - generic [ref=e134] [cursor=pointer]:
+            - 'checkbox "Выбрать объявление Объявление 59: Животные для продажи" [ref=e136]'
+            - 'img "Объявление 59: Животные для продажи" [ref=e138]'
+            - generic [ref=e139]:
+              - generic [ref=e140]:
+                - 'heading "Объявление 59: Животные для продажи" [level=3] [ref=e141]'
+                - generic [ref=e143]: Одобрено
+              - paragraph [ref=e144]: Подробное описание товара 59. Это отличный товар, который подходит для различных целей. Качество проверено временем и им...
+              - generic [ref=e145]:
+                - generic [ref=e146]: 7 993 ₽
+                - generic [ref=e147]: Животные
+              - generic [ref=e148]:
+                - generic [ref=e149]: 25.02.2026
+                - generic [ref=e150]:
+                  - generic [ref=e151]: Продавец 9
+                  - generic [ref=e152]: ⭐ 0.1
+          - generic [ref=e153] [cursor=pointer]:
+            - 'checkbox "Выбрать объявление Объявление 137: Работа для продажи" [ref=e155]'
+            - 'img "Объявление 137: Работа для продажи" [ref=e157]'
+            - generic [ref=e158]:
+              - generic [ref=e159]:
+                - 'heading "Объявление 137: Работа для продажи" [level=3] [ref=e160]'
+                - generic [ref=e161]:
+                  - generic [ref=e162]: Одобрено
+                  - generic [ref=e163]: ⚡ Срочно
+              - paragraph [ref=e164]: Подробное описание товара 137. Это отличный товар, который подходит для различных целей. Качество проверено временем и и...
+              - generic [ref=e165]:
+                - generic [ref=e166]: 8 238 ₽
+                - generic [ref=e167]: Работа
+              - generic [ref=e168]:
+                - generic [ref=e169]: 21.02.2026
+                - generic [ref=e170]:
+                  - generic [ref=e171]: Продавец 79
+                  - generic [ref=e172]: ⭐ 1.9
+        - generic [ref=e173]:
+          - generic [ref=e174]: Показано 1–5 из 5 объявлений
+          - generic [ref=e175]:
+            - button "Первая страница" [disabled] [ref=e176]: «
+            - button "Предыдущая страница" [disabled] [ref=e177]: ‹
+            - button "1" [ref=e179] [cursor=pointer]
+            - button "Следующая страница" [disabled] [ref=e180]: ›
+            - button "Последняя страница" [disabled] [ref=e181]: »
+```
